@@ -1,0 +1,39 @@
+.modal-custom{
+  max-width: 1230px;
+}
+#map {
+  width: 1200px;
+  height: 600px;
+}
+@media (max-width: 1200px) {
+      #map {
+        width: 600px; height: 400px;
+      }
+}
+.fontsize{
+  font-size: 20px;
+}
+
+table.tabl{
+	border: 1px solid #eee;
+	table-layout: fixed;
+	width: 100%;
+	margin-bottom: 20px;
+}
+table.tabl th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+table.tabl td{
+	padding: 5px 10px;
+	border: 1px solid #eee;
+	text-align: left;
+}
+table.tabl tbody tr:nth-child(odd){
+	background: #fff;
+}
+table.tabl tbody tr:nth-child(even){
+	background: #F7F7F7;
+}
